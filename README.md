@@ -25,27 +25,6 @@ Particle Discovery is a captivating logic puzzle game built with React and Tailw
 
 ---
 
-## 📂 Project Structure
-
-The project follows a clean and organized structure to separate concerns.
-
-
-\`\`\`
-src
-├── App.js                # Main application component
-├── components
-│   ├── GuideModal.jsx      # The modal window for game instructions
-│   ├── LanguageSwitcher.jsx# The TR/EN language toggle button
-│   ├── QuantumPuzzle.jsx     # The main game board and logic component
-│   └── Status.jsx          # UI components for stats and messages
-├── context
-│   └── LanguageContext.jsx # Context and Provider for language management
-└── i18n
-    └── translations.js     # All TR and EN text strings
-\`\`\`
-
----
-
 ## 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
