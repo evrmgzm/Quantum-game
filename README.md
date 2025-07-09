@@ -1,7 +1,8 @@
 # Quantum Game - A Logic Puzzle Game
 
-Quantum Game is a captivating logic puzzle game built with React and Tailwind CSS. Players use clues and deduction to locate hidden particles on a grid, managing a limited energy supply. The game features a clean, responsive UI and multi-language support (English & Turkish).
+Quantum Game is a captivating logic puzzle game built with React and Tailwind CSS. Players use clues and deduction to locate hidden particles on a grid, managing a limited energy supply. The game features a clean, responsive UI and multi-language support (English & Turkish). 
 
+- **LINK:** https://nano-quantum-game.netlify.app
 ---
 
 ## ✨ Features
