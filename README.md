@@ -1,4 +1,3 @@
-cat <<EOF > README.md
 # Particle Discovery - A Logic Puzzle Game
 
 Particle Discovery is a captivating logic puzzle game built with React and Tailwind CSS. Players use clues and deduction to locate hidden particles on a grid, managing a limited energy supply. The game features a clean, responsive UI and multi-language support (English & Turkish).
@@ -30,7 +29,7 @@ Particle Discovery is a captivating logic puzzle game built with React and Tailw
 
 The project follows a clean and organized structure to separate concerns.
 
-\`\`\`
+
 src
 ├── App.js                # Main application component
 ├── components
@@ -42,7 +41,7 @@ src
 │   └── LanguageContext.jsx # Context and Provider for language management
 └── i18n
     └── translations.js     # All TR and EN text strings
-\`\`\`
+
 
 ---
 
