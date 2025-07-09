@@ -57,12 +57,12 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/particle-discovery.git
+    git clone https://github.com/evrmgzm/quantum-game.git
     ```
 
 2.  **Navigate to the project directory:**
     ```sh
-    cd particle-discovery
+    cd quantum-game
     ```
 
 3.  **Install NPM packages:**
@@ -76,8 +76,6 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
     ```sh
     npm start
     ```
-
-2.  Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
 ---
 
