@@ -1,6 +1,6 @@
 # Quantum Game - A Logic Puzzle Game
 
-Particle Discovery is a captivating logic puzzle game built with React and Tailwind CSS. Players use clues and deduction to locate hidden particles on a grid, managing a limited energy supply. The game features a clean, responsive UI and multi-language support (English & Turkish).
+Quantum Game is a captivating logic puzzle game built with React and Tailwind CSS. Players use clues and deduction to locate hidden particles on a grid, managing a limited energy supply. The game features a clean, responsive UI and multi-language support (English & Turkish).
 
 ---
 
@@ -20,8 +20,28 @@ Particle Discovery is a captivating logic puzzle game built with React and Tailw
 -   **Frontend:** [React.js](https://reactjs.org/)
 -   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 -   **Icons:** [Lucide React](https://lucide.dev/)
--   **State Management:** React Hooks (\`useState\`, \`useEffect\`, \`useCallback\`)
+-   **State Management:** React Hooks (`useState`, `useEffect`, `useCallback`)
 -   **Internationalization (i18n):** React Context API
+
+---
+
+## 📂 Project Structure
+
+The project follows a clean and organized structure to separate concerns.
+
+```
+src
+├── App.js                # Main application component
+├── components
+│   ├── GuideModal.jsx      # The modal window for game instructions
+│   ├── LanguageSwitcher.jsx# The TR/EN language toggle button
+│   ├── QuantumPuzzle.jsx     # The main game board and logic component
+│   └── Status.jsx          # UI components for stats and messages
+├── context
+│   └── LanguageContext.jsx # Context and Provider for language management
+└── i18n
+    └── translations.js     # All TR and EN text strings
+```
 
 ---
 
@@ -36,27 +56,28 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
 ### Installation
 
 1.  **Clone the repository:**
-    \`\`\`sh
-    git clone https://github.com/evrmgzm/quantum-game.git
-    \`\`\`
+    ```sh
+    git clone https://github.com/your-username/particle-discovery.git
+    ```
 
 2.  **Navigate to the project directory:**
-    \`\`\`sh
-    cd quantum-game
-    \`\`\`
+    ```sh
+    cd particle-discovery
+    ```
 
 3.  **Install NPM packages:**
-    \`\`\`sh
+    ```sh
     npm install
-    \`\`\`
+    ```
 
 ### Running the Application
 
 1.  **Start the development server:**
-    \`\`\`sh
+    ```sh
     npm start
-    \`\`\`
+    ```
 
+2.  Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
 ---
 
@@ -87,4 +108,4 @@ When you observe a cell, you will get one of two results:
 2.  Once you have 4 cells marked, the **"Confirm Guess"** button will become active.
 3.  Click it to submit your answer. If you are correct, you win! If not, you lose.
 
-
+---
